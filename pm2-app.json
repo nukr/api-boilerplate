@@ -1,6 +1,6 @@
 {
   "name": "api-boilerplate",
-  "script": "babel-register.js",
+  "script": "src/index.js",
   "watch": ["src"],
   "watch_options": {
     "usePolling": true
