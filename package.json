@@ -17,5 +17,9 @@
   },
   "standard": {
     "parser": "babel-eslint"
+  },
+  "dependencies": {
+    "koa": "^2.0.0-alpha.3",
+    "koa-router": "^7.0.1"
   }
 }
