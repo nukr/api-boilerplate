@@ -15,6 +15,11 @@ router.get('/healthCheck', (ctx, next) => {
   ctx.status = 200
 })
 
+router.get('/health_check', (ctx, next) => {
+  ctx.set('Cache-Control', 'no-cache')
+  ctx.status = 200
+})
+
 app.use(logger())
 app.use(router.routes())
 app.listen(3000, () => {
